@@ -8,6 +8,7 @@
 void setup() {
 	Serial.begin(19200);
 	int a = 10;
+	int b = 20;
 }
 
 // the loop function runs over and over again until power down or reset
