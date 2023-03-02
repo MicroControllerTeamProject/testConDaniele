@@ -99,14 +99,14 @@
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\cores\\arduino;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\variants\\standard;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include-fixed;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\avr\include</IncludePath>
+    <IncludePath>$(ProjectDir)..\testDaniele;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\cores\\arduino;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\variants\\standard;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include-fixed;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\avr\include</IncludePath>
     <RemoteCCompileToolExe>$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\tools\\avr\bin\avr-g++</RemoteCCompileToolExe>
     <RemoteCppCompileToolExe>$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\tools\\avr\bin\avr-g++</RemoteCppCompileToolExe>
     <ValidateArchitecture>false</ValidateArchitecture>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\cores\\arduino;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\variants\\standard;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include-fixed;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\avr\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\testDaniele;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\cores\\arduino;$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\arduino\\avr\\variants\\standard;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\lib\gcc\avr\5.4.0\include-fixed;$(ProjectDir)..\..\..\..\..\program files (x86)\arduino-1.8.7\hardware\tools\avr\avr\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <GccToolChain>$(ProjectDir)..\..\..\..\..\\Program Files (x86)\\arduino-1.8.7\\hardware\\tools\\avr\bin\avr-g++</GccToolChain>
       <CppLanguageStandard>gnu++11</CppLanguageStandard>
       <CLanguageStandard>gnu11</CLanguageStandard>
@@ -115,7 +115,7 @@
       <ForcedIncludeFiles>$(ProjectDir)..\..\..\..\..\program files\microsoft visual studio\2022\enterprise\common7\ide\extensions\0axxbbxm.vxj\Micro Platforms\default\vm-intelli-pre.h;$(ProjectDir)..\..\..\..\..\Users\lsgso\AppData\Local\Temp\VMBuilds\testDaniele\uno\Debug\.vmintelli\d025ab085009f8af85d9ca4d33bd8dcf\vm-intelli-gcc-defines.h;$(ProjectDir)..\..\..\..\..\program files\microsoft visual studio\2022\enterprise\common7\ide\extensions\0axxbbxm.vxj\Micro Platforms\default\vm-intelli-post.h;$(ProjectDir)__vm\.testDaniele.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <UndefineAllPreprocessorDefinitions>true</UndefineAllPreprocessorDefinitions>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>_VMICRO_INTELLISENSE;__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;F_CPU=16000000L;ARDUINO=10807;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_VMICRO_INTELLISENSE;__AVR_atmega328p__;__AVR_ATmega328P__;__AVR_ATmega328p__;_VMDEBUG=1;F_CPU=16000000L;ARDUINO=10807;ARDUINO_AVR_UNO;ARDUINO_ARCH_AVR;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
